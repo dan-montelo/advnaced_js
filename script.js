@@ -121,9 +121,10 @@ function initGui() {
             loadPBRMaterial(material, value)
     })
     
-    let matFolder = gui.addFolder('Attributes')
-
     matFolder.open()
+
+    let attFolder = gui.addFolder('Attributes')
+    attFolder.open()
 
 }
 
