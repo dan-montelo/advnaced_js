@@ -120,6 +120,8 @@ function initGui() {
         'streaked-metal1' ]).onChange(function(value){
             loadPBRMaterial(material, value)
     })
+    
+    let matFolder = gui.addFolder('Attributes')
 
     matFolder.open()
 
