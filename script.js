@@ -3,7 +3,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { Rhino3dmLoader } from 'three/examples/jsm/loaders/3DMLoader'
 import { GUI } from 'dat.gui'
 
-const model = 'hello_mesh.3dm'
+const model = 'connector.3dm'
 let scene, camera, renderer, material, light
 
 init()
